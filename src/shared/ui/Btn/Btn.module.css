@@ -1,0 +1,25 @@
+.btn {
+  background-color: #817e7e;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 300;
+  transition: background-color 0.3 ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--dark-gray);
+}
+
+.normalSize {
+  padding: 0 20px;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.smallSize {
+  padding: 0 10px;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
